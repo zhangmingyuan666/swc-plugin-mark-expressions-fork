@@ -15,6 +15,7 @@ serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 jsonc-parser = { version = "0.23.0", features = ["serde"] }
 swc_core = { version = "=0.92.6", features = ["ecma_plugin_transform", "common_concurrent"] }
+swc_ecma_utils = {version = "0.128.2"}
 
 [dev-dependencies]
 swc_core = { version = "=0.92.6", features = ["ecma_plugin_transform", "ecma_parser", "common_concurrent", "testing"] }
